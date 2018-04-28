@@ -1,0 +1,2 @@
+set(styx_msgs_MESSAGE_FILES "/home/jalzate/Documents/udacity/term3/projects/copies/CarND-Capstone/ros/src/styx_msgs/msg/TrafficLight.msg;/home/jalzate/Documents/udacity/term3/projects/copies/CarND-Capstone/ros/src/styx_msgs/msg/TrafficLightArray.msg;/home/jalzate/Documents/udacity/term3/projects/copies/CarND-Capstone/ros/src/styx_msgs/msg/Waypoint.msg;/home/jalzate/Documents/udacity/term3/projects/copies/CarND-Capstone/ros/src/styx_msgs/msg/Lane.msg")
+set(styx_msgs_SERVICE_FILES "")
