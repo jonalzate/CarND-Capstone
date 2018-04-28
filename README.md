@@ -19,15 +19,6 @@ Jonathan Alzate | jonas.alzate(at)gmail.com
 
 Publishes waypoints from the car's current position to a given `x` distance ahead. If an upcoming stop light is detected, the velocity of the waypoints is adjusted and the vehicle decelerates or accelerates depending on the light state.
 
-States definition and changes between those states:
-
-State 				| Description
----------------- | ---------------------
-Start Acceleration | Determines needed acceleration for the car to reach the target velocity. 
-Continue Acceleration | Continues with the acceleration and keeps the target velocity if reached.
-Start Deceleration	  | Determines how much deceleration is needed for the car to stop at the next stop line.
-Continue Deceleration | Continues with the deceleration and keeps zero speed if reached.
-
 ### Drive-By-Wire And Twist Controller
 
 This is compose of multiple nodes
